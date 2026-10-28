@@ -4,7 +4,7 @@ Submission for the Roostoo ML intern assessment by **Atharva Moghe** (IIT Madras
 
 A machine-learning agent that coaches a new BTC/USDT trader on **whether a trade is worth taking after their own fees**, how big it should be, where to exit, and when to sit out. It does not try to call the next price move.
 
-- **Report (3 pages):** [`report/BTC_Trade_Coach_Plan_LaTeX.pdf`](report/BTC_Trade_Coach_Plan_LaTeX.pdf) (LaTeX source in `report/`)
+- **Report (3 pages):** [`report/Atharva_report_pdf.pdf`](report/Atharva_report_pdf.pdf) (LaTeX source in `report/`)
 - **Interactive mock-up of the trader screen:** [`mockup/btc_trade_coach.html`](mockup/btc_trade_coach.html). Download it and open it in a browser; it runs on the agent's real 6-month replay.
 - **Every experiment, including the failures:** [`EXPERIMENT_LOG.md`](EXPERIMENT_LOG.md) (19 runs)
 - **How the decision agent works:** [`AGENT.md`](AGENT.md)
