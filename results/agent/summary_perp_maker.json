@@ -1,0 +1,33 @@
+{
+  "cards": 1092,
+  "states": {
+    "STAND ASIDE": 418,
+    "PAUSED": 349,
+    "TAKE": 217,
+    "SKIP": 108
+  },
+  "trades_taken": 69,
+  "take_hit_rate": 0.11594202898550725,
+  "take_net_bps": -0.13619321570907422,
+  "take_total_pct": -0.09397331883926122,
+  "skipped_setups_if_traded_net_bps": -9.453197660256414,
+  "every_card_if_traded_net_bps": -13.042185916452729,
+  "by_confidence": {
+    "high": {
+      "n": 119,
+      "tp_rate": 0.118,
+      "net_bps": -12.2
+    },
+    "low": {
+      "n": 756,
+      "tp_rate": 0.114,
+      "net_bps": -15.2
+    },
+    "medium": {
+      "n": 217,
+      "tp_rate": 0.074,
+      "net_bps": -6.0
+    }
+  },
+  "paused_pct": 31.959706959706956
+}

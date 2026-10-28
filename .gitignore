@@ -1,0 +1,19 @@
+# Raw and processed market data (re-download with get_binance.py; ~190 MB)
+data/
+*.parquet
+*.csv.gz
+
+# Archives and older report export (the current report lives in report/)
+*.zip
+/BTC_Trade_Coach_Plan.pdf
+
+# Python / LaTeX / OS clutter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.aux
+*.log
+*.out
+*.synctex.gz
+.DS_Store
+Thumbs.db

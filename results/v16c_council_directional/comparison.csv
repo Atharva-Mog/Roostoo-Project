@@ -1,0 +1,17 @@
+strategy,period,ann_ret,sharpe,maxdd,total
+"Council (Hedge eta=0, gamma=1)",selection 2022-07..2024-12,34.44,1.23,-25.76,86.34
+"Council (Hedge eta=0, gamma=1)",TEST 2025-01..now,-13.74,-0.67,-39.49,-25.0
+Equal weights (eta=0),selection 2022-07..2024-12,34.44,1.23,-25.76,86.34
+Equal weights (eta=0),TEST 2025-01..now,-13.74,-0.67,-39.49,-25.0
+Best expert on selection period (trend),selection 2022-07..2024-12,49.87,1.28,-44.27,125.01
+Best expert on selection period (trend),TEST 2025-01..now,-2.61,-0.1,-28.27,-4.76
+Buy & hold BTC,selection 2022-07..2024-12,61.67,1.23,-43.75,154.59
+Buy & hold BTC,TEST 2025-01..now,-8.51,-0.2,-75.44,-15.49
+Expert alone: ml,selection 2022-07..2024-12,21.91,0.59,-32.47,54.92
+Expert alone: ml,TEST 2025-01..now,-46.04,-1.55,-89.5,-83.76
+Expert alone: trend,selection 2022-07..2024-12,49.87,1.28,-44.27,125.01
+Expert alone: trend,TEST 2025-01..now,-2.61,-0.1,-28.27,-4.76
+Expert alone: hold,selection 2022-07..2024-12,61.67,1.23,-43.75,154.59
+Expert alone: hold,TEST 2025-01..now,-8.51,-0.2,-75.44,-15.49
+Flat earning carry only,selection 2022-07..2024-12,4.32,16.55,-0.19,10.83
+Flat earning carry only,TEST 2025-01..now,2.19,19.72,-0.22,3.98

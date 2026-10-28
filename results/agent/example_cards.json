@@ -1,0 +1,182 @@
+{
+ "TAKE": {
+  "time": "2026-05-02 23:45:00+00:00",
+  "price": 78686.85,
+  "state": "TAKE",
+  "confidence": "high",
+  "odds": {
+   "tp_first": 0.219,
+   "stop_first": 0.115,
+   "nothing": 0.667
+  },
+  "expected_gross_bps": 42.7,
+  "your_fees_bps": 25.0,
+  "expected_net_bps": 17.7,
+  "plan": {
+   "entry": 78686.85,
+   "take_profit": 80281.07,
+   "stop": 77641.66,
+   "time_limit_h": 24,
+   "size_pct_of_account": 75.3,
+   "risk_pct": 1.0
+  },
+  "market": {
+   "vol_percentile": 18,
+   "trend_4w": "up"
+  },
+  "reasons": [
+   "top traders are not heavily long",
+   "weekly volatility is elevated, so the price can travel far enough to reach the target",
+   "price is in a healthy position relative to its 1-week average"
+  ],
+  "base_layer": "4-week trend is UP: if you already hold BTC, holding has historically beaten trading in this state",
+  "confidence_history": {
+   "tp_rate": 0.20719738276990185,
+   "n": 917,
+   "gross_bps": 16.85474476433466
+  },
+  "calibration": {
+   "n": 30,
+   "predicted_tp": 0.206,
+   "realized_tp": 0.1,
+   "z": -1.44,
+   "net_bps": -2.2
+  },
+  "exit_time": "2026-05-03 23:45:00+00:00"
+ },
+ "SKIP": {
+  "time": "2026-05-03 07:45:00+00:00",
+  "price": 78363.25,
+  "state": "SKIP",
+  "confidence": "high",
+  "odds": {
+   "tp_first": 0.204,
+   "stop_first": 0.23,
+   "nothing": 0.565
+  },
+  "expected_gross_bps": 20.8,
+  "your_fees_bps": 25.0,
+  "expected_net_bps": -4.2,
+  "plan": {
+   "entry": 78363.25,
+   "take_profit": 79850.9,
+   "stop": 77386.91,
+   "time_limit_h": 24,
+   "size_pct_of_account": 80.3,
+   "risk_pct": 1.0
+  },
+  "market": {
+   "vol_percentile": 17,
+   "trend_4w": "up"
+  },
+  "reasons": [
+   "top traders are not heavily long",
+   "weekly volatility is elevated, so the price can travel far enough to reach the target",
+   "leverage is high versus last week"
+  ],
+  "base_layer": "4-week trend is UP: if you already hold BTC, holding has historically beaten trading in this state",
+  "confidence_history": {
+   "tp_rate": 0.20719738276990185,
+   "n": 917,
+   "gross_bps": 16.85474476433466
+  },
+  "calibration": {
+   "n": 32,
+   "predicted_tp": 0.202,
+   "realized_tp": 0.094,
+   "z": -1.52,
+   "net_bps": -3.8
+  },
+  "exit_time": "2026-05-04 02:00:00+00:00"
+ },
+ "PAUSED": {
+  "time": "2026-05-03 19:45:00+00:00",
+  "price": 78760.32,
+  "state": "PAUSED",
+  "confidence": "high",
+  "odds": {
+   "tp_first": 0.205,
+   "stop_first": 0.228,
+   "nothing": 0.567
+  },
+  "expected_gross_bps": 19.5,
+  "your_fees_bps": 25.0,
+  "expected_net_bps": -5.5,
+  "plan": {
+   "entry": 78760.32,
+   "take_profit": 80133.16,
+   "stop": 77858.19,
+   "time_limit_h": 24,
+   "size_pct_of_account": 87.3,
+   "risk_pct": 1.0
+  },
+  "market": {
+   "vol_percentile": 16,
+   "trend_4w": "up"
+  },
+  "reasons": [
+   "top traders are not heavily long",
+   "weekly volatility is elevated, so the price can travel far enough to reach the target",
+   "price is in a healthy position relative to its 1-week average"
+  ],
+  "base_layer": "4-week trend is UP: if you already hold BTC, holding has historically beaten trading in this state",
+  "confidence_history": {
+   "tp_rate": 0.20719738276990185,
+   "n": 917,
+   "gross_bps": 16.85474476433466
+  },
+  "calibration": {
+   "n": 35,
+   "predicted_tp": 0.199,
+   "realized_tp": 0.086,
+   "z": -1.67,
+   "net_bps": -2.1
+  },
+  "exit_time": "2026-05-04 02:30:00+00:00"
+ },
+ "STAND ASIDE": {
+  "time": "2026-05-04 23:45:00+00:00",
+  "price": 79861.01,
+  "state": "STAND ASIDE",
+  "confidence": "low",
+  "odds": {
+   "tp_first": 0.116,
+   "stop_first": 0.277,
+   "nothing": 0.608
+  },
+  "expected_gross_bps": -1.4,
+  "your_fees_bps": 25.0,
+  "expected_net_bps": -26.4,
+  "plan": {
+   "entry": 79861.01,
+   "take_profit": 82459.41,
+   "stop": 78174.39,
+   "time_limit_h": 24,
+   "size_pct_of_account": 47.3,
+   "risk_pct": 1.0
+  },
+  "market": {
+   "vol_percentile": 32,
+   "trend_4w": "up"
+  },
+  "reasons": [
+   "top traders are not heavily long",
+   "trading volume is fading versus last week",
+   "volatility is contracting"
+  ],
+  "base_layer": "4-week trend is UP: if you already hold BTC, holding has historically beaten trading in this state",
+  "confidence_history": {
+   "tp_rate": 0.1256991920447483,
+   "n": 6436,
+   "gross_bps": -11.902192276355276
+  },
+  "calibration": {
+   "n": 44,
+   "predicted_tp": 0.203,
+   "realized_tp": 0.205,
+   "z": 0.02,
+   "net_bps": 10.3
+  },
+  "exit_time": "2026-05-05 23:45:00+00:00"
+ }
+}

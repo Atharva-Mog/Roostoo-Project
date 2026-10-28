@@ -1,0 +1,38 @@
+{
+ "beginner_spot": {
+  "agent_TAKE": {
+   "trades": 25,
+   "total_pct": -10.7
+  },
+  "every_card": {
+   "trades": 215,
+   "total_pct": -60.9
+  },
+  "would_take_while_paused": {
+   "trades": 6,
+   "total_pct": 0.4
+  },
+  "no_pause_gate": {
+   "trades": 31,
+   "total_pct": -10.3
+  }
+ },
+ "perp_maker": {
+  "agent_TAKE": {
+   "trades": 69,
+   "total_pct": -0.1
+  },
+  "every_card": {
+   "trades": 215,
+   "total_pct": -24.4
+  },
+  "would_take_while_paused": {
+   "trades": 22,
+   "total_pct": -4.1
+  },
+  "no_pause_gate": {
+   "trades": 89,
+   "total_pct": -7.6
+  }
+ }
+}
